@@ -1,0 +1,175 @@
+/*
+Theme Name: Signify Photography
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+/*--------------------------------------------------------------
+1.0 - Colors
+--------------------------------------------------------------*/
+
+/* Editor Font Size */
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+	font-family: "Oswald", serif;
+}
+
+.editor-post-title__block .editor-post-title__input {
+	color: #fff;
+	font-family: "Oswald", serif;
+}
+
+/* Link styles */
+
+.edit-post-visual-editor a,
+.editor-block-list__block a,
+.wp-block-freeform.block-library-rich-text__tinymce a {
+	color: #999999;
+}
+
+/* File */
+
+.wp-block-file__textlink {
+	box-shadow: 0 1px 0 0 currentColor;
+	color: #333;
+}
+
+.wp-block-file .wp-block-file__button {
+	background: #ffbf00;
+	border: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #03065d;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	line-height: 1.615384615384615;
+	letter-spacing: 0.1em;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	white-space: nowrap;
+}
+
+.editor-styles-wrapper .wp-block-pullquote.is-style-solid-color blockquote {
+	background-color: #121212;
+}
+
+/* Buttons */
+
+.wp-block-button .wp-block-button__link {
+	background-color: #ffbf00;
+	color: #000000;
+    border: 1px solid #ffbf00;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+	border: 1px dashed #ffbf00;
+	background-color: transparent;
+	color: #fff;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link,
+.is-style-fill.wp-block-button .more-link,
+.is-style-fill.wp-block-button .button {
+	background-color: #ffbf00;
+	color: #fff;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link:hover,
+.is-style-fill.wp-block-button .wp-block-button__link:focus,
+.is-style-fill.wp-block-button .more-link:hover,
+.is-style-fill.wp-block-button .more-link:focus,
+.is-style-fill.wp-block-button .button:hover,
+.is-style-fill.wp-block-button .button:focus,
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus {
+	background-color: #000000;
+	border-color: #e6e6e6;
+	color: #ffffff;
+}
+
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus,
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus {
+	background-color: #fff;
+	color: #000;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+	border: 1px dashed #ffbf00;
+	background-color: transparent;
+	color: #000;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link,
+.is-style-fill.wp-block-button .more-link,
+.is-style-fill.wp-block-button .button {
+	background-color: #ffbf00;
+	color: #fff;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link:hover,
+.is-style-fill.wp-block-button .wp-block-button__link:focus,
+.is-style-fill.wp-block-button .more-link:hover,
+.is-style-fill.wp-block-button .more-link:focus,
+.is-style-fill.wp-block-button .button:hover,
+.is-style-fill.wp-block-button .button:focus {
+	background-color: #fff;
+	border-color: #e6e6e6;
+	color: #000;
+}
+
+.wp-playlist-light {
+    background: #fff;
+    color: #999999;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current {
+    background-color: #ffbf00;
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background: #ffbf00;
+}
+
+.mejs-container button {
+    color: #fff;
+}
+
+.mejs-container button:hover,
+.mejs-container button:focus {
+	color: #ffbf00;
+}
+
+.wp-playlist-dark .mejs-container button {
+	color: #fff;
+}
+
+body .wp-playlist-tracks .wp-playlist-item:hover a,
+body .wp-playlist-tracks .wp-playlist-item:focus a {
+	color: #ffbf00;
+}
+
+
+.wp-playlist-tracks .wp-playlist-playing a,
+.wp-playlist-tracks .wp-playlist-playing .wp-playlist-item-length {
+	color: #ffbf00;
+}
+
+.wp-playlist-light .wp-playlist-caption {
+	color: #999999;
+}
